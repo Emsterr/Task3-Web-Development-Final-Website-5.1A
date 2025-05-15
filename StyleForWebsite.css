@@ -1,0 +1,297 @@
+body{
+    background-color: #a5c4e7;
+    color:#334764;
+}
+
+
+.navbar-brand, .nav-link{
+    color:#a5c4e7;
+    font-weight: bold;
+}
+
+
+.nav-link:hover{
+    color: #00326a;
+}
+
+
+p {
+    color: #ffffff; 
+}
+
+
+.img{
+    border:4px solid #a5c4e7;
+    border-radius: 20%;
+    width: 250px; /* Fixed width */
+    height: 180px; /* Fixed height */
+    object-fit: cover; /* Makes sure images don't look stretched */
+    border: 2px solid #a5c4e7; /* Light blue border */
+    border-radius: 30px;
+    background-color: #ffffff;
+    
+    
+}
+
+
+
+.col-md-4:hover{
+    transform: scale(1.05);
+    transition:all 0.3s ease-in-out;
+    
+}
+
+.row:last-child img {
+    border: none; /* No border on big banner */
+    margin-top: 20%;
+}
+
+.btn-primary {
+    background-color: #4a6488;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #334764;
+}
+
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-img {
+    width: 50%;    /* Makes the logo smaller — adjust this % if needed */
+    height: auto;  /* Keeps proportions */
+    max-width:600px; /* Never grow bigger than 400px */
+    min-width: 400px; /* Never shrink too tiny */
+}
+.content p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ffffff;
+}
+.content {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1e2b41;
+}
+
+.about-text {
+    font-size: 150%;
+    line-height: 1.6;
+    color: #334764;
+    padding: 0 20px;
+}
+
+.highlight-banner {
+    background-color: #334764;
+    color:#a5c4e7;
+    border-radius: 20px;
+    align-content: center;
+}
+
+.feature-card {
+    background-color: #4a6488;
+    color: #ffffff;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.feature-card h6 {
+    font-weight: bold;
+}
+
+.float-start {
+    width: 70%;
+    max-width: 300px;  
+    height: auto;     
+    border-radius: 50px; 
+    border: 4px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/*info page*/
+/* Hero section */
+.info-header {
+    background-color: #334764;
+}
+
+.info-header h1,
+.info-header h2 {
+    color: #a5c4e7;
+}
+
+/* Highlight box */
+.highlight-box {
+    background-color: #a5c4e7;
+    border-radius: 30px;
+    padding: 40px 20px;
+    color: #ffffff;
+}
+
+.feature-pill {
+    background-color: #4a6488;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* Key Findings */
+.key-findings {
+    background-color: #6583aa;
+}
+
+.finding-box {
+    background-color:#1e2b41;
+    border-radius: 15px;
+    color: #0f131e;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.finding-box h5 {
+    font-size: 1.5rem;
+    background-color: #334764;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ai-models-section {
+    background-color: #1e2b41;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 60px 20px;
+    color: #ffffff;
+}
+
+.ai-models-section p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.model-logo {
+    height: 50px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+/*contact page*/
+.contact-header {
+    background-color:  #334764;
+}
+
+.bg-blue {
+    background-color: #a5c4e7;
+}
+
+.contact-fieldset {
+    background-color: #4a6488;
+}
+
+.contact-icon-box {
+    background-color: #4a6488;
+    color: #a5c4e7;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-icon-img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+/* About Page style */
+/* Header Section */
+.about-header {
+    background-color: #334764;
+    
+}
+
+.highlight-text {
+    color: #a5c4e7;
+}
+
+/* About Content */
+.about-content {
+    background-color: #a5c4e7;
+    color: #1e2b41;
+}
+
+.contact-header h1,
+.contact-header h2{
+    color: #a5c4e7;
+
+}
+
+img.rounded-4 {
+    max-width: 250px;
+    border: 4px solid #ffffff;
+    border-radius: 20px;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background-color: #1e2b41;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Feature Pill Buttons */
+.feature-pill2 {
+    background-color: #4a6488;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.pcolor{
+    color: #0f131e;
+}
